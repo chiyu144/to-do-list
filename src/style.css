@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    list-style: none; outline: none;
+}
+
+body {
+    font-family: 'Meiryo', sans-serif;
+}
+
+button {
+    border-radius: 4px; font-family: 'Meiryo', sans-serif;
+}
+
+#toDoContainer, nav, #typeArea, .guide, .fusen ul li {
+    display: flex;
+}
+
+#toDoContainer {
+    flex-flow: column; border: 1px solid silver; border-radius: 4px;
+    margin: 60px auto; padding: 20px 40px;
+    width: 100%; max-width: 600px;
+    justify-content: center; align-items: center;
+    background-image: linear-gradient(135deg, #d9d9d9 2.38%, #ffffff 2.38%, #ffffff 50%, #d9d9d9 50%, #d9d9d9 52.38%, #ffffff 52.38%, #ffffff 100%);
+    background-size: 29.70px 29.70px;
+}
+
+#toDoContainer > h3 {
+    font-family: 'Yu Gothic'; margin-right: auto;
+    font-size: 40px; color: #65cae9;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+#typeArea {
+    width: 100%; height: 40px;
+    margin: 20px 0; 
+}
+
+#typeArea > button {
+    flex: 0 0 8%; color: #fff; position: relative;
+    margin-left: 10px; background-color: rgb(165, 219, 115);
+    border: 1px solid #fff; cursor: pointer;
+}
+
+#typeArea > button:active {
+    top:1px; left: 2px;
+}
+
+#typeArea > input {
+    flex: 1 1 auto; border-radius: 4px; border: 1px solid silver;
+    padding: 3px 6px; font-size: 16px;
+}
+#typeArea > input::placeholder {
+    color: silver;
+}
+
+.guide {
+    flex-flow: row; 
+    width: 100%;
+    justify-content: space-between; align-items: center;
+}
+.guide>p {
+    color: rgb(173, 24, 24); font-size: 12px; padding: 3px 6px;
+    border: 1px solid rgb(212, 151, 151); border-radius: 4px;
+    background-color: #fff;
+}
+
+.guide:last-child {
+    justify-content: flex-end;
+}
+
+.guide>button {
+    padding: 6px; cursor: pointer; line-height: 100%;
+    height: 24px; background-color: #fff; font-size: 14px; 
+    border: 1px solid rgb(198, 168, 255); 
+    color: rgb(172, 139, 248); 
+    margin-left: 6px; width: 24px; height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; position: relative;
+}
+
+.guide>button:active {
+    top:1px; left: 2px;
+}
+
+.guide>a {
+    border: 1px solid rgb(173, 195, 255); font-size: 13px; 
+    color: rgb(137, 161, 251); margin-right: 6px; padding: 3px 6px;
+    border-radius: 4px; background-color: #fff; text-decoration: none;
+    transition: all .2s ease;
+}
+
+.guide>a:active {
+    color: rgb(137, 161, 251);
+}
+
+.guide>a:visited {
+    color: rgb(137, 161, 251);
+}
+
+.guide>a:hover {
+    color: #4169e1;
+    border: 1px solid #4169e1;
+}
+
+#allDone {
+    background-image: url(./img/allDone.png);
+
+}
+
+#clearCompleted {
+    background-image: url(./img/clearCompleted.png);
+}
+
+.fusen {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.fusen ul li {
+    font-size: 16px;
+    margin: 20px 0; padding: 14px;
+    position: relative;
+    background: linear-gradient(to right, #ffffcc 0%, #f1f1c1 0.5%, #f1f1c1 13%, #ffffcc 16%);
+}
+.fusen ul li:after {
+    content:""; display:block;
+    position: absolute; z-index: -1;
+    bottom: 5px; right: 0; height: 15px; width: 99%;
+    background: rgba(0,0,0,0.5); box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    transform: rotate(1.5deg); backface-visibility: hidden;
+}
+.fusen ul li:nth-child(odd) {
+    background: linear-gradient(to right, #ffffcc 0%, #f1f1c1 0.5%, #f1f1c1 13%, #ffffcc 16%);
+}
+.fusen ul li:nth-child(even) { 
+    background: linear-gradient(to right, #FDF8E6 0%, #F5ECDA 0.5%, #F5ECDA 13%, #FDF8E6 16%);
+    margin: 1.6em 0em !important;
+}
+.fusen ul li label { 
+    flex: 1 1 auto;
+}
+
+label {
+    margin-left: 14px; padding-left: 40px; position: relative;
+}
+input[type=checkbox] {
+    position: absolute; opacity: 0; cursor: pointer;
+}
+label .checkmark {
+    position: absolute; top: 0; left: 0;
+    height: 24px; width: 24px;
+    border: 1px solid rgb(173, 195, 255);
+    background-color: #fff; border-radius: 4px;
+    transition: all .2s ease;
+}
+label .checkmark:before {
+    content: '✔'; position: absolute; top: 0; left: 50%;
+    transform: translateX(-50%); opacity: 0; color: #3f3a3a;
+    transition: all .2s ease; color: #4169e1;
+}
+label .text {
+    transition: all .2s ease;
+}
+input[type=checkbox]:checked~.checkmark:before {
+    opacity: 1;
+}
+input[type=checkbox]:checked~.text {
+    color: silver;
+}
+
+.fusen ul li button { 
+    flex: 0 0 4%; font-size: 18px; color: #fff;
+    border: 1px solid #fff;
+    background-color: salmon;
+    position: relative; cursor: pointer;
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.3));
+}
+.fusen ul li button:active { 
+    top:1px; left: 2px;
+}
