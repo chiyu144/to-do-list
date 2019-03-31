@@ -19,13 +19,13 @@ class App extends Component {
         this.removeTaskHandler = this.removeTaskHandler.bind(this);
         this.checkClickHandler = this.checkClickHandler.bind(this);
         this.state = {
-            placeholder: "Add Task To List…_〆(°▽°*)",
+            placeholder: "Add Task…_〆(°▽°*)",
             todoList: prevTodoList || [],
             // remaining: remaining() || 0 + ' Tasks Left'
         }
     }
 
-    blur() { this.setState({ placeholder: "Add Task To List…_〆(°▽°*)" }) }
+    blur() { this.setState({ placeholder: "Add Task…_〆(°▽°*)" }) }
     focus() { this.setState({ placeholder: "" }) }
     
     toggleNav(e) { 
