@@ -66,7 +66,7 @@ nav {
 .guide>p {
     color: rgb(173, 24, 24); font-size: 12px; padding: 3px 6px;
     border: 1px solid rgb(212, 151, 151); border-radius: 4px;
-    background-color: #fff;
+    background-color: #fff; visibility: hidden;
 }
 
 .guide:last-child {
@@ -88,20 +88,26 @@ nav {
     top:1px; left: 2px;
 }
 
-.guide>a {
+
+.nav {
     border: 1px solid rgb(173, 195, 255); font-size: 13px; 
     color: rgb(137, 161, 251); margin-right: 6px; padding: 3px 6px;
     border-radius: 4px; background-color: #fff; text-decoration: none;
     transition: all .2s ease;
 }
 
-.guide>a:active {
+.navActive {
+    color: #4169e1;
+    border: 1px solid #4169e1;
+}
+
+/* .guide>a:active {
     color: rgb(137, 161, 251);
 }
 
 .guide>a:visited {
     color: rgb(137, 161, 251);
-}
+} */
 
 .guide>a:hover {
     color: #4169e1;
@@ -172,7 +178,7 @@ input[type=checkbox]:checked~.checkmark:before {
     opacity: 1;
 }
 input[type=checkbox]:checked~.text {
-    color: silver;
+    color: silver; text-decoration-line: line-through;
 }
 
 .fusen ul li button { 
