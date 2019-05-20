@@ -2,7 +2,7 @@
 
 > AppWorks School 2019 Spring Web Class (Front-end) Assigned Project
 
-| Technologies                                     |
+| Tec     |            111       |  222            |
 |:-------:|:--------------------:|:---------------:|
 | React   | React-Router for SPA | Webpack         |
 | Jest    | Enzyme               | Local Storage   |
