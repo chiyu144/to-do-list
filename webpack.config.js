@@ -8,7 +8,7 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  entry: path.join(__dirname, 'src/index.js'),
+  entry: ['@babel/polyfill', path.join(__dirname, 'src/index.js')],
   output: {
 		filename: 'main.js',
 		path: path.resolve(__dirname, 'dist')
@@ -18,10 +18,7 @@ module.exports = {
 		{
 			test: /\.js$/,
 			use: {
-				loader: 'babel-loader',
-				options: {
-					presets: ['@babel/preset-env', '@babel/preset-react']
-				}
+				loader: 'babel-loader'
 			}
 		},
 		{
@@ -47,7 +44,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
         filename: 'index.html',
-        template: './src/index.html'
+				template: './src/index.html',
+				favicon: './src/img/favicon.png'
     })
   ],
 	resolve: {

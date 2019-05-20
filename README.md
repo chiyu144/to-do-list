@@ -1,5 +1,3 @@
-#### To Do List ver 1.0
-> Webpack + React + React Router
->> Demo
+#### To Do List
 
-https://julieliao.github.io/todolist
+> AppWorks School 2019 Spring Web Class (Front-end) Assigned Project
