@@ -93,7 +93,7 @@ class App extends Component {
                         onBlur={() => this.blur()} onFocus={() => this.focus()}/>
                     <button type="submit" id="addNoteBtn">Add</button>
                 </form>
-                <BrowserRouter basename={'/todolist'}> {/* basename={'/todolist'} */}
+                <BrowserRouter basename={'/To-Do-List'}> {/* basename={'/To-Do-List'} */}
                     <nav>
                         <div className="guide">
                             <p id="remaining"></p>
