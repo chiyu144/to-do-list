@@ -1,4 +1,4 @@
-#### To Do List
+### To Do List
 
 > AppWorks School 2019 Spring Web Class (Front-end) Assigned Project
 
@@ -7,7 +7,7 @@
 | React        | React-Router for SPA | Webpack         |
 | Jest         | Enzyme               | Local Storage   |
 
-#### Give it a try !
+### Give it a try !
 
 > [To Do List｜Julie](https://julieliao.github.io/To-Do-List)
 
