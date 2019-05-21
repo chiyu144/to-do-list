@@ -2,10 +2,10 @@
 
 > AppWorks School 2019 Spring Web Class (Front-end) Assigned Project
 
-| Technologies |                      |                 |
-|:------------:|:--------------------:|:---------------:|
-| React        | React-Router for SPA | Webpack         |
-| Jest         | Enzyme               | Local Storage   |
+| Technologies              |                      |                              |
+|:-------------------------:|:--------------------:|:----------------------------:|
+| React, Router             | React-Router for SPA | Module bundling with Webpack |
+| Unit Test : Jest & Enzyme | Local Storage        | Single Page Application      |
 
 ### Give it a try !
 
