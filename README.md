@@ -10,7 +10,7 @@
 
 ![to-do-list-2019 Screenshot](https://raw.github.com/julieliao/To-Do-List/master/sample.png)
 
-#### Front-End Tech Stack
+#### Front-end Tech Stack
 
 - React.js (class component)
 - React Router
