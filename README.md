@@ -1,10 +1,20 @@
-### To Do List
+#### To Do List 2019
 
-> AppWorks School 2019 Spring Web Class (Front-end) Assigned Project
+- AppWorks School 2019 spring web class (front-end) assigned project
+- I have stopped maintaining this repository, but you can still view the live demo below ✨
 
-| Technologies              |                      |                              |
-|:-------------------------:|:--------------------:|:----------------------------:|
-| React, Router             | React-Router for SPA | Module bundling with Webpack |
-| Unit Test : Jest & Enzyme | Local Storage        | Single Page Application      |
+#### Live Demo
 
-![To-Do-List ScreenShot](https://raw.github.com/julieliao/To-Do-List/master/sample.png)
+- Homepage: [https://chiyu144.github.io/to-do-list](https://chiyu144.github.io/to-do-list/) 
+- Screenshot:
+
+![to-do-list-2019 Screenshot](https://raw.github.com/julieliao/To-Do-List/master/sample.png)
+
+#### Front-End Tech Stack
+
+- React.js (class component)
+- React Router
+- Webpack (without Create React App or any other framework)
+- Jest & Enzyme (for unit test)
+- Local Storage
+
