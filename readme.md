@@ -6,7 +6,7 @@
 - Homepage: [https://yuzunekoayu.github.io/to-do-list](https://yuzunekoayu.github.io/to-do-list/) 
 - Screenshot:
 
-![to-do-list-2019 Screenshot](https://raw.github.com/julieliao/To-Do-List/master/sample.png)
+![to-do-list-2019](https://github.com/yuzunekoayu/to-do-list-2019/assets/45845170/bbccfe4f-7a01-4877-8ccb-317784a7c516)
 
 #### Front-end Tech Stack
 - React.js (class component)
