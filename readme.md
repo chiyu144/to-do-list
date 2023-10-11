@@ -14,4 +14,3 @@
 - Webpack (without Create React App or any other framework)
 - Jest & Enzyme (for unit test)
 - Local Storage
-
