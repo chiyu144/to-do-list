@@ -3,7 +3,7 @@
 - I have stopped maintaining this repository, but you can still view the live demo below ✨
 
 #### Live Demo
-- Homepage: [https://chiyu144.github.io/to-do-list](https://chiyu144.github.io/to-do-list/) 
+- Homepage: [https://yuzunekoayu.github.io/to-do-list](https://yuzunekoayu.github.io/to-do-list/) 
 - Screenshot:
 
 ![to-do-list-2019 Screenshot](https://raw.github.com/julieliao/To-Do-List/master/sample.png)
