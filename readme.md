@@ -1,12 +1,9 @@
 #### To Do List 2019
 - AppWorks School 2019 spring web class (front-end) assigned project
-- I have stopped maintaining this repository, but you can still view the live demo below ✨
+- I have stopped maintaining this project, but you can still view the live demo in the 'About' section of this repository ✨
 
-#### Live Demo
-- Homepage: [https://yuzunekoayu.github.io/to-do-list-2019](https://yuzunekoayu.github.io/to-do-list-2019) 
-- Screenshot:
-
-![to-do-list-2019](https://github.com/yuzunekoayu/to-do-list-2019/assets/45845170/bbccfe4f-7a01-4877-8ccb-317784a7c516)
+#### Screenshot
+![to-do-list-2019](https://github.com/yuki16bit/to-do-list-2019/assets/45845170/bbccfe4f-7a01-4877-8ccb-317784a7c516)
 
 #### Front-end Tech Stack
 - React.js (class component)
